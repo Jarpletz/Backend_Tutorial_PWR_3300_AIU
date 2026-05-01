@@ -22,7 +22,7 @@ We will use:
 
 ### Operating System
 
-- Macbook or any Linux Distrobution
+- MacOS or any Linux Distrobution
 
 ### Required Software
 
