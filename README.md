@@ -1,5 +1,7 @@
 # Beginner-Friendly Tutorial: Building a Containerized Backend Server with PostgreSQL
 
+Written by August Rothpeltz using LLM assistance for the PWR 3300 AIU Project.
+
 ## Overview
 
 In this tutorial, you will build a fully functional backend web server that:
