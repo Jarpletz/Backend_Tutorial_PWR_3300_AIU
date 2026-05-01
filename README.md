@@ -48,6 +48,10 @@ project-root/
 │
 ├── backend/
 │   ├── src/
+│   │   ├── index.js
+│   │   ├── db.js
+│   │   ├── routes.js
+|   |
 │   ├── package.json
 │   ├── Dockerfile
 │
