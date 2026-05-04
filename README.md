@@ -1,6 +1,6 @@
 # Beginner-Friendly Tutorial: Building a Containerized Backend Server with PostgreSQL
 
-Written by August Rothpeltz using LLM assistance for the PWR 3300 AIU Project.
+Written by August Rothpletz using LLM assistance for the PWR 3300 AIU Project.
 
 ## Overview
 
@@ -30,12 +30,12 @@ In this project, we use **Docker Compose** to manage multiple containers at once
 
 ### Operating System
 
-- MacOS or any Linux Distrobution
+- macOS or any Linux Distribution
 
 ### Required Software
 
 1. Node.js (v18 or higher)
-2. Docker Desktop (latest version)
+2. Docker Desktop (the latest version)
 3. Git (optional but recommended)
 4. VS Code (or any code editor)
 
@@ -515,7 +515,7 @@ docker-compose down
 
 ### Step 29: Create `.env` File and Add Environment Variables
 
-Using environment variables helps avoid hardcoding sensitive information and makes your app easier to configure.
+Using environment variables helps avoid hard-coding sensitive information and makes your app easier to configure.
 You must create a file named `.env` inside the `backend` folder.
 
 **File: `backend/.env`**
@@ -532,7 +532,7 @@ DB_PORT=5432
 
 ### Step 30: Refactor DB Config to Use `.env`
 
-Now we update our database connection file to use the environment variables instead of hardcoded values.
+Now we update our database connection file to use the environment variables instead of hard-coded values.
 
 **File: `backend/src/db.js` (replace contents)**
 
