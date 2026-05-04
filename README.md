@@ -20,6 +20,12 @@ We will use:
 
 ---
 
+## Background: Why Docker and This Tech Stack?
+
+Before we begin building, it’s helpful to understand _why_ we are using these tools. In traditional development, setting up a backend application often requires manually installing and configuring multiple pieces of software (i.e. a database, runtime environment, dependencies, etc.) on your local machine. This can quickly become frustrating, especially when different developers (or environments) require slightly different configurations. **Docker** solves this problem by allowing us to package our application and all of its dependencies into a standardized unit called a _container_. This container runs the same way on any machine that has Docker installed, making development more predictable and eliminating the classic “it works on my machine” issue.
+
+In this project, we use **Docker Compose** to manage multiple containers at once. Specifically, we use one container for our backend server and one for our PostgreSQL database. Our backend is built using **Node.js with Express**, a lightweight and widely-used framework for handling HTTP requests which keeps things simple for learning purposes. For data storage, we use **PostgreSQL**, a powerful relational database that is commonly used in real-world applications. Together, this stack reflects a modern, practical approach to backend development: clean separation of concerns, reproducibility through containerization, and tools that scale from small projects to production systems.
+
 ## Prerequisites
 
 ### Operating System
